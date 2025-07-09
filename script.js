@@ -1,6 +1,6 @@
 //your JS code here. If required.
-let counter = document.getElementById("counterVal");
-let counterBtn = document.getElementById("counterBtn");
+let counter = document.getElementById("counter");
+let counterBtn = document.getElementById("incrementBtn");
 
 counterBtn.addEventListener("click", () => {
 	counterVal = parseInt(counter.innerText);
